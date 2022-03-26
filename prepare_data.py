@@ -8,6 +8,7 @@ def read_file(fileName):
     '''
     with open(fileName, 'r', encoding='utf-8') as f:
         lines = f.readlines()
+        # drop all the '\n'
         lines = [l for l in lines if l != '\n' and len(l) > 0]
     return lines
 

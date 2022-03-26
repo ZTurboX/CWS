@@ -12,8 +12,9 @@ class Feature:
 
     def add(self, local_feature, name, *args):
 
-        feature_name = ' '.join((name,)+tuple(args))
-
+        # for example: 
+        # ' '.join(("w1w2",) + ("张","岳")) ---> 'w1w2 张 岳'
+        feature_name = ' '.join((name,) + tuple(args))
         local_feature[feature_name] = 1
 
     def get_features(self, item):
@@ -57,43 +58,37 @@ class Feature:
         for i in range(len(item)):
             local_feature = self.get_features(item[0:i+1])
             for feature_name in local_feature.keys():
-                global_feature[feature_name] = (
-                    global_feature[feature_name] if feature_name in global_feature.keys() else 0)+local_feature[feature_name]
+                global_feature[feature_name] = \
+                    (global_feature[feature_name] if feature_name in global_feature.keys() else 0) + local_feature[feature_name]
         return global_feature
 
     def update_weight(self, y, z):
         y_feature = self.get_global_feature(y)
         z_feature = self.get_global_feature(z)
         for feature_name in y_feature.keys():
-            self.weight[feature_name] = (
-                self.weight[feature_name] if feature_name in self.weight.keys() else 0)+y_feature[feature_name]
+            self.weight[feature_name] = (self.weight[feature_name] if feature_name in self.weight.keys() else 0) \
+                                            + y_feature[feature_name]
         for feature_name in z_feature.keys():
-            self.weight[feature_name] = (
-                self.weight[feature_name] if feature_name in self.weight.keys() else 0)-z_feature[feature_name]
+            self.weight[feature_name] = (self.weight[feature_name] if feature_name in self.weight.keys() else 0) \
+                                            - z_feature[feature_name]
 
     def update_avgWeight(self, y, z, n, t, data_size):
 
         z_feature = self.get_global_feature(z)
         for feature_name in z_feature.keys():
-            self.weight[feature_name] = self.weight[feature_name] if feature_name in self.weight.keys(
-            ) else 0
-            self.r[feature_name] = self.r[feature_name] if feature_name in self.r.keys(
-            ) else (0, 0)
-            self.avg_weight[feature_name] = (self.avg_weight[feature_name] if feature_name in self.avg_weight.keys() else 0)\
-                + self.weight[feature_name]*(t*data_size+n-self.r[feature_name]
-                                             [1]*data_size-self.r[feature_name][0])
+            self.weight[feature_name] = self.weight[feature_name] if feature_name in self.weight.keys() else 0
+            self.r[feature_name] = self.r[feature_name] if feature_name in self.r.keys() else (0, 0)
+            self.avg_weight[feature_name] = (self.avg_weight[feature_name] if feature_name in self.avg_weight.keys() else 0) \
+                + self.weight[feature_name]*(t*data_size + n - self.r[feature_name][1]*data_size-self.r[feature_name][0])
             self.weight[feature_name] -= z_feature[feature_name]
             self.r[feature_name] = (n, t)
 
         y_feature = self.get_global_feature(y)
         for feature_name in y_feature.keys():
-            self.weight[feature_name] = self.weight[feature_name] if feature_name in self.weight.keys(
-            ) else 0
-            self.r[feature_name] = self.r[feature_name] if feature_name in self.r.keys(
-            ) else (0, 0)
-            self.avg_weight[feature_name] = (self.avg_weight[feature_name] if feature_name in self.avg_weight.keys() else 0)\
-                + self.weight[feature_name]*(t*data_size+n-self.r[feature_name]
-                                             [1]*data_size-self.r[feature_name][0])
+            self.weight[feature_name] = self.weight[feature_name] if feature_name in self.weight.keys() else 0
+            self.r[feature_name] = self.r[feature_name] if feature_name in self.r.keys() else (0, 0)
+            self.avg_weight[feature_name] = (self.avg_weight[feature_name] if feature_name in self.avg_weight.keys() else 0) \
+                + self.weight[feature_name]*(t*data_size+n-self.r[feature_name][1]*data_size-self.r[feature_name][0])
             self.weight[feature_name] += y_feature[feature_name]
             self.r[feature_name] = (n, t)
 
@@ -104,7 +99,7 @@ class Feature:
                     iterations*data_size
             else:
                 self.avg_weight[feature_name] += self.weight[feature_name]*(
-                    iterations*data_size-self.r[feature_name][1]*data_size-self.r[feature_name][0]+1)
+                    iterations*data_size - self.r[feature_name][1]*data_size - self.r[feature_name][0] + 1)
 
     def cal_avg_weight(self, iterations, data_size):
         for feature_name in self.avg_weight.keys():
@@ -115,7 +110,6 @@ class Feature:
         pickle.dump(self.weight, model_file)
 
     def load_model(self, model_file):
-
         self.weight = pickle.load(model_file)
 
 

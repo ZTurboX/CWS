@@ -418,5 +418,5 @@ def evaluate(output_path, reference_path):
 
 if __name__ == '__main__':
 
-    evaluate('test_seg_data/test-seg-data_model-9_beam-size-16.txt',
-             'data/filter_test.txt')
+    evaluate('test_seg_data/avg-test-seg-data_beam-size-16.txt',
+            'data/filter_test.txt')
