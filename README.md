@@ -12,6 +12,7 @@ model-9:
 precision: 0.950
 recall: 0.947
 F1: 0.949
+
 ---------------------------------------------------------------------------------------
 将人民日报一月份语料和人民日报二月份语料融合后做5-fold cross validation的相应操作在cross_valid_ver.py和test_0325.ipynb中实现（仅是简单调用了sklearn.model_selection.KFold）。
 
