@@ -23,6 +23,7 @@ def write_file(filter_file, corpus):
 
 
 def prepare_data(data, filter_file):
+    import logging
     '''
     去除语料中的标签
     '''
@@ -42,7 +43,8 @@ def prepare_data(data, filter_file):
         data = ' '.join(filter_arr)
         corpus.append(data)
     write_file(filter_file, corpus)
-    print("过滤文件成功")
+    logging.info("file filtering completed")
+    print("file filtering completed")
 
 
 if __name__ == "__main__":
