@@ -24,6 +24,7 @@ implement  Chinese Segmentation with a Word-Based Perceptron Algorithm
 
 他们的课程主页为：https://westlakenlp.github.io/nlpml/ ，他们的课程在西湖大学文本智能实验室的bilibili账号[WestlakeNLP](https://space.bilibili.com/639900532)上更新。
 
+
 ### 数据集
 
 人民日报一、二月份语料（1998年1月、1998年2月） 
