@@ -18,7 +18,7 @@ implement  Chinese Segmentation with a Word-Based Perceptron Algorithm
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-将人民日报一月份语料和人民日报二月份语料融合后做5-fold cross validation的相应操作在cross_valid_ver.py和test_0325.ipynb中实现（通过sklearn.model_selection.KFold实现）。
+将人民日报一月份语料和人民日报二月份语料融合后做5-fold cross validation的相应操作在cross_valid_ver.py和test_0325.ipynb中实现（通过sklearn.model_selection.KFold实现），过程日志在./5-fold-cv-process.log中。
 
 其中，slides10-Sequence Segmentation.pdf来自于张岳老师编写的《Natural Language Processing: A Machine Learning Perspective （机器学习视角下的自然语言处理）》一书的对应课程。
 
