@@ -62,4 +62,3 @@ implement  Chinese Segmentation with a Word-Based Perceptron Algorithm
   + precision: 0.951
   + recall: 0.949
   + F1: 0.950
-

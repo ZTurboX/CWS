@@ -118,7 +118,28 @@ if __name__ == '__main__':
             raw_data)[train_id], np.array(raw_data)[test_id]
 
         gold_test_filepath = "data/cv-" + str(cv_epoch_num) + "-filter_test.txt"
-        prepare_data.prepare_data(test_data, gold_test_filepath)
+        # prepare_data.prepare_data(test_data, gold_test_filepath)
+        def another_prepare_data(data, filter_file):
+            corpus = []
+            for line in data:
+                line.strip('\n')
+                split_line = line.split()
+                filter_arr = []
+                data = ''
+                for arr in split_line:
+                    index = arr.find(']')
+                    if index > 0:
+                        arr = arr[:index+1]
+                    ret = re.sub("/[a-zA-Z]+", "", arr) # replace character like '/a'~'/z'
+                    filter_arr.append(ret)
+                # filter_arr = filter_arr[1:]
+                # print(filter_arr)
+                data = ' '.join(filter_arr)
+                corpus.append(data)
+            prepare_data.write_file(filter_file, corpus)
+            print("file filtering completed")
+
+        another_prepare_data(test_data, gold_test_filepath)
 
         logging.info("len of raw_data: %d, train_data: %d, test_data: %d",
                     len(raw_data), len(train_data), len(test_data))
@@ -159,7 +180,7 @@ if __name__ == '__main__':
         gold_test_filepath = "data/cv-" + str(cv_iter) + "-filter_test.txt"
         word_precision, word_recall, word_fmeasure = evaluate(test_filepath, gold_test_filepath)
         
-        logging.info("cv-%d-eval:", cv_iter)
+        logging.info("cv-%d-eval:" % cv_iter)
         logging.info("precision: %.3f" % word_precision)
         logging.info("recall: %.3f" % word_recall)
         logging.info("F1: %.3f" % word_fmeasure)
