@@ -27,7 +27,8 @@ implement  Chinese Segmentation with a Word-Based Perceptron Algorithm
 
 ### 数据集
 
-人民日报一、二月份语料（1998年1月、1998年2月） 
+人民日报一、二月份语料（1998年1月、1998年2月）
+
 （./data/fusion_data.txt）
 
 ### 评估方式
