@@ -35,6 +35,8 @@ implement  Chinese Segmentation with a Word-Based Perceptron Algorithm
 
 5-fold cross validation, random_state=10  (i.e., random seed)
 
+Hyperparameters: iterations=3, beam_size=16
+
 ### 实验结果
 
 + cv-1-eval
