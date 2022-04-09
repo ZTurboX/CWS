@@ -1,0 +1,581 @@
+2022-03-27 14:17:19,903 - INFO: This is a info log.
+2022-03-27 14:17:19,955 - INFO: cross-valid epoch: 1
+2022-03-27 14:17:19,955 - INFO: TRAIN: [1 2 3]...[38326 38327 38328], TEST: [0 7 9]...[38307 38310 38315]
+2022-03-27 14:17:20,742 - INFO: file filtering completed
+2022-03-27 14:17:20,742 - INFO: len of raw_data: 38329, train_data: 30663, test_data: 7666
+2022-03-27 14:17:20,742 - INFO: -------------------------------------------------------------------------------------------------
+2022-03-27 14:17:20,742 - INFO: cross-valid epoch: 2
+2022-03-27 14:17:20,743 - INFO: TRAIN: [0 1 2]...[38326 38327 38328], TEST: [ 5 12 13]...[38320 38321 38324]
+2022-03-27 14:17:21,545 - INFO: file filtering completed
+2022-03-27 14:17:21,546 - INFO: len of raw_data: 38329, train_data: 30663, test_data: 7666
+2022-03-27 14:17:21,546 - INFO: -------------------------------------------------------------------------------------------------
+2022-03-27 14:17:21,546 - INFO: cross-valid epoch: 3
+2022-03-27 14:17:21,546 - INFO: TRAIN: [0 2 3]...[38325 38326 38328], TEST: [ 1 26 31]...[38319 38323 38327]
+2022-03-27 14:17:22,358 - INFO: file filtering completed
+2022-03-27 14:17:22,359 - INFO: len of raw_data: 38329, train_data: 30663, test_data: 7666
+2022-03-27 14:17:22,359 - INFO: -------------------------------------------------------------------------------------------------
+2022-03-27 14:17:22,359 - INFO: cross-valid epoch: 4
+2022-03-27 14:17:22,359 - INFO: TRAIN: [0 1 2]...[38324 38326 38327], TEST: [ 3  8 10]...[38322 38325 38328]
+2022-03-27 14:17:23,166 - INFO: file filtering completed
+2022-03-27 14:17:23,166 - INFO: len of raw_data: 38329, train_data: 30663, test_data: 7666
+2022-03-27 14:17:23,166 - INFO: -------------------------------------------------------------------------------------------------
+2022-03-27 14:17:23,166 - INFO: cross-valid epoch: 5
+2022-03-27 14:17:23,167 - INFO: TRAIN: [0 1 3]...[38325 38327 38328], TEST: [2 4 6]...[38289 38309 38326]
+2022-03-27 14:17:23,971 - INFO: file filtering completed
+2022-03-27 14:17:23,971 - INFO: len of raw_data: 38329, train_data: 30664, test_data: 7665
+2022-03-27 14:17:23,971 - INFO: -------------------------------------------------------------------------------------------------
+2022-03-27 14:17:23,972 - INFO: Start cross-validation.
+2022-03-27 14:17:23,972 - INFO: cross-valid epoch: 1
+2022-03-27 14:18:43,420 - INFO: iter 0 , finish 3.26%
+2022-03-27 14:19:59,125 - INFO: iter 0 , finish 6.52%
+2022-03-27 14:21:31,849 - INFO: iter 0 , finish 9.78%
+2022-03-27 14:23:15,267 - INFO: iter 0 , finish 13.05%
+2022-03-27 14:24:48,490 - INFO: iter 0 , finish 16.31%
+2022-03-27 14:26:05,386 - INFO: iter 0 , finish 19.57%
+2022-03-27 14:27:23,597 - INFO: iter 0 , finish 22.83%
+2022-03-27 14:28:55,783 - INFO: iter 0 , finish 26.09%
+2022-03-27 14:30:22,589 - INFO: iter 0 , finish 29.35%
+2022-03-27 14:31:42,317 - INFO: iter 0 , finish 32.61%
+2022-03-27 14:33:00,697 - INFO: iter 0 , finish 35.87%
+2022-03-27 14:34:34,788 - INFO: iter 0 , finish 39.14%
+2022-03-27 14:36:09,958 - INFO: iter 0 , finish 42.40%
+2022-03-27 14:37:31,406 - INFO: iter 0 , finish 45.66%
+2022-03-27 14:38:53,882 - INFO: iter 0 , finish 48.92%
+2022-03-27 14:40:11,421 - INFO: iter 0 , finish 52.18%
+2022-03-27 14:41:24,561 - INFO: iter 0 , finish 55.44%
+2022-03-27 14:43:07,814 - INFO: iter 0 , finish 58.70%
+2022-03-27 14:44:41,093 - INFO: iter 0 , finish 61.96%
+2022-03-27 14:46:03,745 - INFO: iter 0 , finish 65.23%
+2022-03-27 14:47:50,246 - INFO: iter 0 , finish 68.49%
+2022-03-27 14:49:23,681 - INFO: iter 0 , finish 71.75%
+2022-03-27 14:50:56,979 - INFO: iter 0 , finish 75.01%
+2022-03-27 14:52:18,216 - INFO: iter 0 , finish 78.27%
+2022-03-27 14:54:09,979 - INFO: iter 0 , finish 81.53%
+2022-03-27 14:55:42,740 - INFO: iter 0 , finish 84.79%
+2022-03-27 14:57:28,202 - INFO: iter 0 , finish 88.05%
+2022-03-27 14:58:43,224 - INFO: iter 0 , finish 91.32%
+2022-03-27 15:00:38,736 - INFO: iter 0 , finish 94.58%
+2022-03-27 15:02:19,025 - INFO: iter 0 , finish 97.84%
+2022-03-27 15:03:24,533 - INFO: segment with model-0 finish
+2022-03-27 15:03:24,533 - INFO: iteration 0 finish
+2022-03-27 15:04:45,403 - INFO: iter 1 , finish 3.26%
+2022-03-27 15:06:02,566 - INFO: iter 1 , finish 6.52%
+2022-03-27 15:07:36,835 - INFO: iter 1 , finish 9.78%
+2022-03-27 15:09:21,473 - INFO: iter 1 , finish 13.05%
+2022-03-27 15:10:56,393 - INFO: iter 1 , finish 16.31%
+2022-03-27 15:12:13,718 - INFO: iter 1 , finish 19.57%
+2022-03-27 15:13:31,641 - INFO: iter 1 , finish 22.83%
+2022-03-27 15:15:03,882 - INFO: iter 1 , finish 26.09%
+2022-03-27 15:16:31,314 - INFO: iter 1 , finish 29.35%
+2022-03-27 15:17:51,143 - INFO: iter 1 , finish 32.61%
+2022-03-27 15:19:10,063 - INFO: iter 1 , finish 35.87%
+2022-03-27 15:20:45,121 - INFO: iter 1 , finish 39.14%
+2022-03-27 15:22:21,031 - INFO: iter 1 , finish 42.40%
+2022-03-27 15:23:42,766 - INFO: iter 1 , finish 45.66%
+2022-03-27 15:25:05,360 - INFO: iter 1 , finish 48.92%
+2022-03-27 15:26:23,107 - INFO: iter 1 , finish 52.18%
+2022-03-27 15:27:37,094 - INFO: iter 1 , finish 55.44%
+2022-03-27 15:29:20,496 - INFO: iter 1 , finish 58.70%
+2022-03-27 15:30:53,658 - INFO: iter 1 , finish 61.96%
+2022-03-27 15:32:16,364 - INFO: iter 1 , finish 65.23%
+2022-03-27 15:34:02,528 - INFO: iter 1 , finish 68.49%
+2022-03-27 15:35:36,527 - INFO: iter 1 , finish 71.75%
+2022-03-27 15:37:10,350 - INFO: iter 1 , finish 75.01%
+2022-03-27 15:38:31,076 - INFO: iter 1 , finish 78.27%
+2022-03-27 15:40:22,607 - INFO: iter 1 , finish 81.53%
+2022-03-27 15:41:55,037 - INFO: iter 1 , finish 84.79%
+2022-03-27 15:43:40,691 - INFO: iter 1 , finish 88.05%
+2022-03-27 15:44:56,347 - INFO: iter 1 , finish 91.32%
+2022-03-27 15:46:52,414 - INFO: iter 1 , finish 94.58%
+2022-03-27 15:48:33,065 - INFO: iter 1 , finish 97.84%
+2022-03-27 15:49:37,857 - INFO: segment with model-1 finish
+2022-03-27 15:49:37,857 - INFO: iteration 1 finish
+2022-03-27 15:50:57,696 - INFO: iter 2 , finish 3.26%
+2022-03-27 15:52:13,811 - INFO: iter 2 , finish 6.52%
+2022-03-27 15:53:46,568 - INFO: iter 2 , finish 9.78%
+2022-03-27 15:55:29,589 - INFO: iter 2 , finish 13.05%
+2022-03-27 15:57:03,586 - INFO: iter 2 , finish 16.31%
+2022-03-27 15:58:19,717 - INFO: iter 2 , finish 19.57%
+2022-03-27 15:59:37,167 - INFO: iter 2 , finish 22.83%
+2022-03-27 16:01:09,933 - INFO: iter 2 , finish 26.09%
+2022-03-27 16:02:36,647 - INFO: iter 2 , finish 29.35%
+2022-03-27 16:03:55,681 - INFO: iter 2 , finish 32.61%
+2022-03-27 16:05:13,444 - INFO: iter 2 , finish 35.87%
+2022-03-27 16:06:47,593 - INFO: iter 2 , finish 39.14%
+2022-03-27 16:08:22,692 - INFO: iter 2 , finish 42.40%
+2022-03-27 16:09:43,659 - INFO: iter 2 , finish 45.66%
+2022-03-27 16:11:05,354 - INFO: iter 2 , finish 48.92%
+2022-03-27 16:12:23,050 - INFO: iter 2 , finish 52.18%
+2022-03-27 16:13:36,303 - INFO: iter 2 , finish 55.44%
+2022-03-27 16:15:18,732 - INFO: iter 2 , finish 58.70%
+2022-03-27 16:16:51,173 - INFO: iter 2 , finish 61.96%
+2022-03-27 16:18:13,278 - INFO: iter 2 , finish 65.23%
+2022-03-27 16:19:58,139 - INFO: iter 2 , finish 68.49%
+2022-03-27 16:21:31,147 - INFO: iter 2 , finish 71.75%
+2022-03-27 16:23:04,712 - INFO: iter 2 , finish 75.01%
+2022-03-27 16:24:25,406 - INFO: iter 2 , finish 78.27%
+2022-03-27 16:26:16,844 - INFO: iter 2 , finish 81.53%
+2022-03-27 16:27:49,115 - INFO: iter 2 , finish 84.79%
+2022-03-27 16:29:34,839 - INFO: iter 2 , finish 88.05%
+2022-03-27 16:30:50,836 - INFO: iter 2 , finish 91.32%
+2022-03-27 16:32:47,580 - INFO: iter 2 , finish 94.58%
+2022-03-27 16:34:28,123 - INFO: iter 2 , finish 97.84%
+2022-03-27 16:35:32,484 - INFO: segment with model-2 finish
+2022-03-27 16:35:32,484 - INFO: iteration 2 finish
+2022-03-27 16:35:39,433 - INFO: segment with avg-model finish
+2022-03-27 16:37:13,322 - INFO: segment with avg-model, finish 13.04%
+2022-03-27 16:38:37,750 - INFO: segment with avg-model, finish 26.09%
+2022-03-27 16:40:02,515 - INFO: segment with avg-model, finish 39.13%
+2022-03-27 16:41:12,531 - INFO: segment with avg-model, finish 52.18%
+2022-03-27 16:42:40,526 - INFO: segment with avg-model, finish 65.22%
+2022-03-27 16:44:21,885 - INFO: segment with avg-model, finish 78.27%
+2022-03-27 16:45:51,635 - INFO: segment with avg-model, finish 91.31%
+2022-03-27 16:46:49,643 - INFO: Start cross-validation.
+2022-03-27 16:46:49,643 - INFO: cross-valid epoch: 2
+2022-03-27 16:48:13,681 - INFO: iter 0 , finish 3.26%
+2022-03-27 16:49:25,002 - INFO: iter 0 , finish 6.52%
+2022-03-27 16:51:04,557 - INFO: iter 0 , finish 9.78%
+2022-03-27 16:52:50,376 - INFO: iter 0 , finish 13.05%
+2022-03-27 16:54:19,732 - INFO: iter 0 , finish 16.31%
+2022-03-27 16:55:41,483 - INFO: iter 0 , finish 19.57%
+2022-03-27 16:56:55,689 - INFO: iter 0 , finish 22.83%
+2022-03-27 16:58:30,591 - INFO: iter 0 , finish 26.09%
+2022-03-27 16:59:57,561 - INFO: iter 0 , finish 29.35%
+2022-03-27 17:01:12,227 - INFO: iter 0 , finish 32.61%
+2022-03-27 17:02:29,676 - INFO: iter 0 , finish 35.87%
+2022-03-27 17:04:04,400 - INFO: iter 0 , finish 39.14%
+2022-03-27 17:05:44,508 - INFO: iter 0 , finish 42.40%
+2022-03-27 17:07:04,123 - INFO: iter 0 , finish 45.66%
+2022-03-27 17:08:19,733 - INFO: iter 0 , finish 48.92%
+2022-03-27 17:09:36,689 - INFO: iter 0 , finish 52.18%
+2022-03-27 17:10:59,149 - INFO: iter 0 , finish 55.44%
+2022-03-27 17:12:39,438 - INFO: iter 0 , finish 58.70%
+2022-03-27 17:14:09,615 - INFO: iter 0 , finish 61.96%
+2022-03-27 17:15:38,643 - INFO: iter 0 , finish 65.23%
+2022-03-27 17:17:30,287 - INFO: iter 0 , finish 68.49%
+2022-03-27 17:19:07,794 - INFO: iter 0 , finish 71.75%
+2022-03-27 17:20:44,274 - INFO: iter 0 , finish 75.01%
+2022-03-27 17:22:07,834 - INFO: iter 0 , finish 78.27%
+2022-03-27 17:23:53,085 - INFO: iter 0 , finish 81.53%
+2022-03-27 17:25:29,015 - INFO: iter 0 , finish 84.79%
+2022-03-27 17:27:14,597 - INFO: iter 0 , finish 88.05%
+2022-03-27 17:28:33,678 - INFO: iter 0 , finish 91.32%
+2022-03-27 17:30:26,195 - INFO: iter 0 , finish 94.58%
+2022-03-27 17:32:07,446 - INFO: iter 0 , finish 97.84%
+2022-03-27 17:33:07,124 - INFO: segment with model-0 finish
+2022-03-27 17:33:07,124 - INFO: iteration 0 finish
+2022-03-27 17:34:31,880 - INFO: iter 1 , finish 3.26%
+2022-03-27 17:35:43,600 - INFO: iter 1 , finish 6.52%
+2022-03-27 17:37:23,503 - INFO: iter 1 , finish 9.78%
+2022-03-27 17:39:09,644 - INFO: iter 1 , finish 13.05%
+2022-03-27 17:40:39,020 - INFO: iter 1 , finish 16.31%
+2022-03-27 17:42:00,487 - INFO: iter 1 , finish 19.57%
+2022-03-27 17:43:14,445 - INFO: iter 1 , finish 22.83%
+2022-03-27 17:44:48,621 - INFO: iter 1 , finish 26.09%
+2022-03-27 17:46:15,075 - INFO: iter 1 , finish 29.35%
+2022-03-27 17:47:29,405 - INFO: iter 1 , finish 32.61%
+2022-03-27 17:48:46,374 - INFO: iter 1 , finish 35.87%
+2022-03-27 17:50:20,674 - INFO: iter 1 , finish 39.14%
+2022-03-27 17:52:00,840 - INFO: iter 1 , finish 42.40%
+2022-03-27 17:53:20,148 - INFO: iter 1 , finish 45.66%
+2022-03-27 17:54:34,895 - INFO: iter 1 , finish 48.92%
+2022-03-27 17:55:51,666 - INFO: iter 1 , finish 52.18%
+2022-03-27 17:57:14,034 - INFO: iter 1 , finish 55.44%
+2022-03-27 17:58:54,461 - INFO: iter 1 , finish 58.70%
+2022-03-27 18:00:24,959 - INFO: iter 1 , finish 61.96%
+2022-03-27 18:01:53,343 - INFO: iter 1 , finish 65.23%
+2022-03-27 18:03:43,882 - INFO: iter 1 , finish 68.49%
+2022-03-27 18:05:21,019 - INFO: iter 1 , finish 71.75%
+2022-03-27 18:06:57,138 - INFO: iter 1 , finish 75.01%
+2022-03-27 18:08:20,871 - INFO: iter 1 , finish 78.27%
+2022-03-27 18:10:05,811 - INFO: iter 1 , finish 81.53%
+2022-03-27 18:11:41,403 - INFO: iter 1 , finish 84.79%
+2022-03-27 18:13:27,190 - INFO: iter 1 , finish 88.05%
+2022-03-27 18:14:46,114 - INFO: iter 1 , finish 91.32%
+2022-03-27 18:16:38,168 - INFO: iter 1 , finish 94.58%
+2022-03-27 18:18:18,938 - INFO: iter 1 , finish 97.84%
+2022-03-27 18:19:17,776 - INFO: segment with model-1 finish
+2022-03-27 18:19:17,776 - INFO: iteration 1 finish
+2022-03-27 18:20:41,196 - INFO: iter 2 , finish 3.26%
+2022-03-27 18:21:52,125 - INFO: iter 2 , finish 6.52%
+2022-03-27 18:23:30,528 - INFO: iter 2 , finish 9.78%
+2022-03-27 18:25:15,192 - INFO: iter 2 , finish 13.05%
+2022-03-27 18:26:44,018 - INFO: iter 2 , finish 16.31%
+2022-03-27 18:28:04,369 - INFO: iter 2 , finish 19.57%
+2022-03-27 18:29:17,022 - INFO: iter 2 , finish 22.83%
+2022-03-27 18:30:50,244 - INFO: iter 2 , finish 26.09%
+2022-03-27 18:32:16,212 - INFO: iter 2 , finish 29.35%
+2022-03-27 18:33:30,817 - INFO: iter 2 , finish 32.61%
+2022-03-27 18:34:47,385 - INFO: iter 2 , finish 35.87%
+2022-03-27 18:36:21,233 - INFO: iter 2 , finish 39.14%
+2022-03-27 18:38:00,122 - INFO: iter 2 , finish 42.40%
+2022-03-27 18:39:18,448 - INFO: iter 2 , finish 45.66%
+2022-03-27 18:40:32,856 - INFO: iter 2 , finish 48.92%
+2022-03-27 18:41:48,751 - INFO: iter 2 , finish 52.18%
+2022-03-27 18:43:09,797 - INFO: iter 2 , finish 55.44%
+2022-03-27 18:44:48,958 - INFO: iter 2 , finish 58.70%
+2022-03-27 18:46:18,275 - INFO: iter 2 , finish 61.96%
+2022-03-27 18:47:45,726 - INFO: iter 2 , finish 65.23%
+2022-03-27 18:49:35,533 - INFO: iter 2 , finish 68.49%
+2022-03-27 18:51:11,423 - INFO: iter 2 , finish 71.75%
+2022-03-27 18:52:46,934 - INFO: iter 2 , finish 75.01%
+2022-03-27 18:54:09,371 - INFO: iter 2 , finish 78.27%
+2022-03-27 18:55:54,447 - INFO: iter 2 , finish 81.53%
+2022-03-27 18:57:29,885 - INFO: iter 2 , finish 84.79%
+2022-03-27 18:59:14,815 - INFO: iter 2 , finish 88.05%
+2022-03-27 19:00:33,622 - INFO: iter 2 , finish 91.32%
+2022-03-27 19:02:25,071 - INFO: iter 2 , finish 94.58%
+2022-03-27 19:04:05,925 - INFO: iter 2 , finish 97.84%
+2022-03-27 19:05:05,109 - INFO: segment with model-2 finish
+2022-03-27 19:05:05,109 - INFO: iteration 2 finish
+2022-03-27 19:05:12,057 - INFO: segment with avg-model finish
+2022-03-27 19:06:40,316 - INFO: segment with avg-model, finish 13.04%
+2022-03-27 19:08:06,737 - INFO: segment with avg-model, finish 26.09%
+2022-03-27 19:09:32,913 - INFO: segment with avg-model, finish 39.13%
+2022-03-27 19:10:51,942 - INFO: segment with avg-model, finish 52.18%
+2022-03-27 19:12:09,550 - INFO: segment with avg-model, finish 65.22%
+2022-03-27 19:13:37,142 - INFO: segment with avg-model, finish 78.27%
+2022-03-27 19:15:09,203 - INFO: segment with avg-model, finish 91.31%
+2022-03-27 19:16:13,619 - INFO: Start cross-validation.
+2022-03-27 19:16:13,619 - INFO: cross-valid epoch: 3
+2022-03-27 19:17:33,049 - INFO: iter 0 , finish 3.26%
+2022-03-27 19:18:52,936 - INFO: iter 0 , finish 6.52%
+2022-03-27 19:20:30,373 - INFO: iter 0 , finish 9.78%
+2022-03-27 19:22:09,949 - INFO: iter 0 , finish 13.05%
+2022-03-27 19:23:38,865 - INFO: iter 0 , finish 16.31%
+2022-03-27 19:24:56,715 - INFO: iter 0 , finish 19.57%
+2022-03-27 19:26:17,429 - INFO: iter 0 , finish 22.83%
+2022-03-27 19:27:46,633 - INFO: iter 0 , finish 26.09%
+2022-03-27 19:29:12,604 - INFO: iter 0 , finish 29.35%
+2022-03-27 19:30:30,182 - INFO: iter 0 , finish 32.61%
+2022-03-27 19:31:49,800 - INFO: iter 0 , finish 35.87%
+2022-03-27 19:33:25,684 - INFO: iter 0 , finish 39.14%
+2022-03-27 19:35:01,353 - INFO: iter 0 , finish 42.40%
+2022-03-27 19:36:23,339 - INFO: iter 0 , finish 45.66%
+2022-03-27 19:37:38,583 - INFO: iter 0 , finish 48.92%
+2022-03-27 19:38:57,290 - INFO: iter 0 , finish 52.18%
+2022-03-27 19:40:09,429 - INFO: iter 0 , finish 55.44%
+2022-03-27 19:42:00,136 - INFO: iter 0 , finish 58.70%
+2022-03-27 19:43:29,776 - INFO: iter 0 , finish 61.96%
+2022-03-27 19:44:51,955 - INFO: iter 0 , finish 65.23%
+2022-03-27 19:46:42,179 - INFO: iter 0 , finish 68.49%
+2022-03-27 19:48:15,447 - INFO: iter 0 , finish 71.75%
+2022-03-27 19:49:47,747 - INFO: iter 0 , finish 75.01%
+2022-03-27 19:51:07,585 - INFO: iter 0 , finish 78.27%
+2022-03-27 19:52:56,912 - INFO: iter 0 , finish 81.53%
+2022-03-27 19:54:31,657 - INFO: iter 0 , finish 84.79%
+2022-03-27 19:56:20,673 - INFO: iter 0 , finish 88.05%
+2022-03-27 19:57:29,145 - INFO: iter 0 , finish 91.32%
+2022-03-27 19:59:17,678 - INFO: iter 0 , finish 94.58%
+2022-03-27 20:00:53,613 - INFO: iter 0 , finish 97.84%
+2022-03-27 20:01:51,196 - INFO: segment with model-0 finish
+2022-03-27 20:01:51,196 - INFO: iteration 0 finish
+2022-03-27 20:03:10,441 - INFO: iter 1 , finish 3.26%
+2022-03-27 20:04:30,645 - INFO: iter 1 , finish 6.52%
+2022-03-27 20:06:06,907 - INFO: iter 1 , finish 9.78%
+2022-03-27 20:07:45,940 - INFO: iter 1 , finish 13.05%
+2022-03-27 20:09:14,399 - INFO: iter 1 , finish 16.31%
+2022-03-27 20:10:30,751 - INFO: iter 1 , finish 19.57%
+2022-03-27 20:11:50,932 - INFO: iter 1 , finish 22.83%
+2022-03-27 20:13:19,444 - INFO: iter 1 , finish 26.09%
+2022-03-27 20:14:46,143 - INFO: iter 1 , finish 29.35%
+2022-03-27 20:16:03,610 - INFO: iter 1 , finish 32.61%
+2022-03-27 20:17:23,004 - INFO: iter 1 , finish 35.87%
+2022-03-27 20:18:57,477 - INFO: iter 1 , finish 39.14%
+2022-03-27 20:20:32,149 - INFO: iter 1 , finish 42.40%
+2022-03-27 20:21:52,757 - INFO: iter 1 , finish 45.66%
+2022-03-27 20:23:06,533 - INFO: iter 1 , finish 48.92%
+2022-03-27 20:24:24,470 - INFO: iter 1 , finish 52.18%
+2022-03-27 20:25:36,226 - INFO: iter 1 , finish 55.44%
+2022-03-27 20:27:26,527 - INFO: iter 1 , finish 58.70%
+2022-03-27 20:28:56,607 - INFO: iter 1 , finish 61.96%
+2022-03-27 20:30:18,093 - INFO: iter 1 , finish 65.23%
+2022-03-27 20:32:07,966 - INFO: iter 1 , finish 68.49%
+2022-03-27 20:33:40,266 - INFO: iter 1 , finish 71.75%
+2022-03-27 20:35:12,401 - INFO: iter 1 , finish 75.01%
+2022-03-27 20:36:32,114 - INFO: iter 1 , finish 78.27%
+2022-03-27 20:38:21,521 - INFO: iter 1 , finish 81.53%
+2022-03-27 20:39:56,268 - INFO: iter 1 , finish 84.79%
+2022-03-27 20:41:45,516 - INFO: iter 1 , finish 88.05%
+2022-03-27 20:42:53,692 - INFO: iter 1 , finish 91.32%
+2022-03-27 20:44:42,237 - INFO: iter 1 , finish 94.58%
+2022-03-27 20:46:17,982 - INFO: iter 1 , finish 97.84%
+2022-03-27 20:47:15,543 - INFO: segment with model-1 finish
+2022-03-27 20:47:15,543 - INFO: iteration 1 finish
+2022-03-27 20:48:34,468 - INFO: iter 2 , finish 3.26%
+2022-03-27 20:49:54,522 - INFO: iter 2 , finish 6.52%
+2022-03-27 20:51:30,684 - INFO: iter 2 , finish 9.78%
+2022-03-27 20:53:09,649 - INFO: iter 2 , finish 13.05%
+2022-03-27 20:54:37,788 - INFO: iter 2 , finish 16.31%
+2022-03-27 20:55:53,809 - INFO: iter 2 , finish 19.57%
+2022-03-27 20:57:13,569 - INFO: iter 2 , finish 22.83%
+2022-03-27 20:58:41,980 - INFO: iter 2 , finish 26.09%
+2022-03-27 21:00:07,855 - INFO: iter 2 , finish 29.35%
+2022-03-27 21:01:25,736 - INFO: iter 2 , finish 32.61%
+2022-03-27 21:02:45,061 - INFO: iter 2 , finish 35.87%
+2022-03-27 21:04:19,366 - INFO: iter 2 , finish 39.14%
+2022-03-27 21:05:53,834 - INFO: iter 2 , finish 42.40%
+2022-03-27 21:07:14,311 - INFO: iter 2 , finish 45.66%
+2022-03-27 21:08:28,669 - INFO: iter 2 , finish 48.92%
+2022-03-27 21:09:47,013 - INFO: iter 2 , finish 52.18%
+2022-03-27 21:10:58,500 - INFO: iter 2 , finish 55.44%
+2022-03-27 21:12:47,230 - INFO: iter 2 , finish 58.70%
+2022-03-27 21:14:15,195 - INFO: iter 2 , finish 61.96%
+2022-03-27 21:15:36,382 - INFO: iter 2 , finish 65.23%
+2022-03-27 21:17:25,634 - INFO: iter 2 , finish 68.49%
+2022-03-27 21:18:58,085 - INFO: iter 2 , finish 71.75%
+2022-03-27 21:20:30,964 - INFO: iter 2 , finish 75.01%
+2022-03-27 21:21:51,291 - INFO: iter 2 , finish 78.27%
+2022-03-27 21:23:41,788 - INFO: iter 2 , finish 81.53%
+2022-03-27 21:25:17,719 - INFO: iter 2 , finish 84.79%
+2022-03-27 21:27:07,986 - INFO: iter 2 , finish 88.05%
+2022-03-27 21:28:16,949 - INFO: iter 2 , finish 91.32%
+2022-03-27 21:30:06,021 - INFO: iter 2 , finish 94.58%
+2022-03-27 21:31:42,584 - INFO: iter 2 , finish 97.84%
+2022-03-27 21:32:40,661 - INFO: segment with model-2 finish
+2022-03-27 21:32:40,661 - INFO: iteration 2 finish
+2022-03-27 21:32:47,577 - INFO: segment with avg-model finish
+2022-03-27 21:34:21,077 - INFO: segment with avg-model, finish 13.04%
+2022-03-27 21:35:50,090 - INFO: segment with avg-model, finish 26.09%
+2022-03-27 21:37:10,218 - INFO: segment with avg-model, finish 39.13%
+2022-03-27 21:38:33,118 - INFO: segment with avg-model, finish 52.18%
+2022-03-27 21:40:00,407 - INFO: segment with avg-model, finish 65.22%
+2022-03-27 21:41:39,840 - INFO: segment with avg-model, finish 78.27%
+2022-03-27 21:43:09,824 - INFO: segment with avg-model, finish 91.31%
+2022-03-27 21:44:26,691 - INFO: Start cross-validation.
+2022-03-27 21:44:26,691 - INFO: cross-valid epoch: 4
+2022-03-27 21:45:51,301 - INFO: iter 0 , finish 3.26%
+2022-03-27 21:47:03,730 - INFO: iter 0 , finish 6.52%
+2022-03-27 21:48:43,324 - INFO: iter 0 , finish 9.78%
+2022-03-27 21:50:22,566 - INFO: iter 0 , finish 13.05%
+2022-03-27 21:51:53,828 - INFO: iter 0 , finish 16.31%
+2022-03-27 21:53:19,772 - INFO: iter 0 , finish 19.57%
+2022-03-27 21:54:36,314 - INFO: iter 0 , finish 22.83%
+2022-03-27 21:56:11,552 - INFO: iter 0 , finish 26.09%
+2022-03-27 21:57:39,772 - INFO: iter 0 , finish 29.35%
+2022-03-27 21:58:55,305 - INFO: iter 0 , finish 32.61%
+2022-03-27 22:00:13,329 - INFO: iter 0 , finish 35.87%
+2022-03-27 22:01:46,634 - INFO: iter 0 , finish 39.14%
+2022-03-27 22:03:22,658 - INFO: iter 0 , finish 42.40%
+2022-03-27 22:04:38,840 - INFO: iter 0 , finish 45.66%
+2022-03-27 22:05:56,016 - INFO: iter 0 , finish 48.92%
+2022-03-27 22:07:13,527 - INFO: iter 0 , finish 52.18%
+2022-03-27 22:08:26,138 - INFO: iter 0 , finish 55.44%
+2022-03-27 22:10:13,538 - INFO: iter 0 , finish 58.70%
+2022-03-27 22:11:41,990 - INFO: iter 0 , finish 61.96%
+2022-03-27 22:13:07,781 - INFO: iter 0 , finish 65.23%
+2022-03-27 22:15:02,008 - INFO: iter 0 , finish 68.49%
+2022-03-27 22:16:35,186 - INFO: iter 0 , finish 71.75%
+2022-03-27 22:18:11,578 - INFO: iter 0 , finish 75.01%
+2022-03-27 22:19:34,831 - INFO: iter 0 , finish 78.27%
+2022-03-27 22:21:23,441 - INFO: iter 0 , finish 81.53%
+2022-03-27 22:22:56,653 - INFO: iter 0 , finish 84.79%
+2022-03-27 22:24:48,609 - INFO: iter 0 , finish 88.05%
+2022-03-27 22:25:53,196 - INFO: iter 0 , finish 91.32%
+2022-03-27 22:27:44,314 - INFO: iter 0 , finish 94.58%
+2022-03-27 22:29:20,203 - INFO: iter 0 , finish 97.84%
+2022-03-27 22:30:20,299 - INFO: segment with model-0 finish
+2022-03-27 22:30:20,299 - INFO: iteration 0 finish
+2022-03-27 22:31:44,361 - INFO: iter 1 , finish 3.26%
+2022-03-27 22:32:57,065 - INFO: iter 1 , finish 6.52%
+2022-03-27 22:34:36,463 - INFO: iter 1 , finish 9.78%
+2022-03-27 22:36:16,390 - INFO: iter 1 , finish 13.05%
+2022-03-27 22:37:47,050 - INFO: iter 1 , finish 16.31%
+2022-03-27 22:39:11,733 - INFO: iter 1 , finish 19.57%
+2022-03-27 22:40:26,868 - INFO: iter 1 , finish 22.83%
+2022-03-27 22:42:01,154 - INFO: iter 1 , finish 26.09%
+2022-03-27 22:43:28,606 - INFO: iter 1 , finish 29.35%
+2022-03-27 22:44:43,740 - INFO: iter 1 , finish 32.61%
+2022-03-27 22:46:01,154 - INFO: iter 1 , finish 35.87%
+2022-03-27 22:47:33,687 - INFO: iter 1 , finish 39.14%
+2022-03-27 22:49:10,340 - INFO: iter 1 , finish 42.40%
+2022-03-27 22:50:26,113 - INFO: iter 1 , finish 45.66%
+2022-03-27 22:51:42,303 - INFO: iter 1 , finish 48.92%
+2022-03-27 22:52:59,177 - INFO: iter 1 , finish 52.18%
+2022-03-27 22:54:11,466 - INFO: iter 1 , finish 55.44%
+2022-03-27 22:56:00,347 - INFO: iter 1 , finish 58.70%
+2022-03-27 22:57:29,708 - INFO: iter 1 , finish 61.96%
+2022-03-27 22:58:53,949 - INFO: iter 1 , finish 65.23%
+2022-03-27 23:00:46,764 - INFO: iter 1 , finish 68.49%
+2022-03-27 23:02:18,748 - INFO: iter 1 , finish 71.75%
+2022-03-27 23:03:54,330 - INFO: iter 1 , finish 75.01%
+2022-03-27 23:05:17,638 - INFO: iter 1 , finish 78.27%
+2022-03-27 23:07:06,074 - INFO: iter 1 , finish 81.53%
+2022-03-27 23:08:38,798 - INFO: iter 1 , finish 84.79%
+2022-03-27 23:10:30,848 - INFO: iter 1 , finish 88.05%
+2022-03-27 23:11:35,438 - INFO: iter 1 , finish 91.32%
+2022-03-27 23:13:26,647 - INFO: iter 1 , finish 94.58%
+2022-03-27 23:15:02,045 - INFO: iter 1 , finish 97.84%
+2022-03-27 23:16:02,043 - INFO: segment with model-1 finish
+2022-03-27 23:16:02,043 - INFO: iteration 1 finish
+2022-03-27 23:17:25,575 - INFO: iter 2 , finish 3.26%
+2022-03-27 23:18:37,773 - INFO: iter 2 , finish 6.52%
+2022-03-27 23:20:16,929 - INFO: iter 2 , finish 9.78%
+2022-03-27 23:21:56,448 - INFO: iter 2 , finish 13.05%
+2022-03-27 23:23:26,846 - INFO: iter 2 , finish 16.31%
+2022-03-27 23:24:51,149 - INFO: iter 2 , finish 19.57%
+2022-03-27 23:26:05,891 - INFO: iter 2 , finish 22.83%
+2022-03-27 23:27:39,814 - INFO: iter 2 , finish 26.09%
+2022-03-27 23:29:06,810 - INFO: iter 2 , finish 29.35%
+2022-03-27 23:30:21,689 - INFO: iter 2 , finish 32.61%
+2022-03-27 23:31:38,746 - INFO: iter 2 , finish 35.87%
+2022-03-27 23:33:10,761 - INFO: iter 2 , finish 39.14%
+2022-03-27 23:34:46,406 - INFO: iter 2 , finish 42.40%
+2022-03-27 23:36:01,863 - INFO: iter 2 , finish 45.66%
+2022-03-27 23:37:17,645 - INFO: iter 2 , finish 48.92%
+2022-03-27 23:38:34,193 - INFO: iter 2 , finish 52.18%
+2022-03-27 23:39:46,060 - INFO: iter 2 , finish 55.44%
+2022-03-27 23:41:32,742 - INFO: iter 2 , finish 58.70%
+2022-03-27 23:43:00,605 - INFO: iter 2 , finish 61.96%
+2022-03-27 23:44:24,604 - INFO: iter 2 , finish 65.23%
+2022-03-27 23:46:17,059 - INFO: iter 2 , finish 68.49%
+2022-03-27 23:47:48,873 - INFO: iter 2 , finish 71.75%
+2022-03-27 23:49:24,298 - INFO: iter 2 , finish 75.01%
+2022-03-27 23:50:47,085 - INFO: iter 2 , finish 78.27%
+2022-03-27 23:52:34,903 - INFO: iter 2 , finish 81.53%
+2022-03-27 23:54:07,318 - INFO: iter 2 , finish 84.79%
+2022-03-27 23:55:58,930 - INFO: iter 2 , finish 88.05%
+2022-03-27 23:57:03,176 - INFO: iter 2 , finish 91.32%
+2022-03-27 23:58:53,912 - INFO: iter 2 , finish 94.58%
+2022-03-28 00:00:28,751 - INFO: iter 2 , finish 97.84%
+2022-03-28 00:01:28,620 - INFO: segment with model-2 finish
+2022-03-28 00:01:28,620 - INFO: iteration 2 finish
+2022-03-28 00:01:35,530 - INFO: segment with avg-model finish
+2022-03-28 00:03:07,213 - INFO: segment with avg-model, finish 13.04%
+2022-03-28 00:04:26,779 - INFO: segment with avg-model, finish 26.09%
+2022-03-28 00:05:52,778 - INFO: segment with avg-model, finish 39.13%
+2022-03-28 00:07:18,292 - INFO: segment with avg-model, finish 52.18%
+2022-03-28 00:08:42,976 - INFO: segment with avg-model, finish 65.22%
+2022-03-28 00:10:13,248 - INFO: segment with avg-model, finish 78.27%
+2022-03-28 00:11:48,136 - INFO: segment with avg-model, finish 91.31%
+2022-03-28 00:12:59,654 - INFO: Start cross-validation.
+2022-03-28 00:12:59,654 - INFO: cross-valid epoch: 5
+2022-03-28 00:14:17,893 - INFO: iter 0 , finish 3.26%
+2022-03-28 00:15:37,952 - INFO: iter 0 , finish 6.52%
+2022-03-28 00:17:18,640 - INFO: iter 0 , finish 9.78%
+2022-03-28 00:19:02,531 - INFO: iter 0 , finish 13.04%
+2022-03-28 00:20:31,567 - INFO: iter 0 , finish 16.31%
+2022-03-28 00:21:52,012 - INFO: iter 0 , finish 19.57%
+2022-03-28 00:23:13,083 - INFO: iter 0 , finish 22.83%
+2022-03-28 00:24:42,561 - INFO: iter 0 , finish 26.09%
+2022-03-28 00:26:11,877 - INFO: iter 0 , finish 29.35%
+2022-03-28 00:27:28,588 - INFO: iter 0 , finish 32.61%
+2022-03-28 00:28:45,969 - INFO: iter 0 , finish 35.87%
+2022-03-28 00:30:17,223 - INFO: iter 0 , finish 39.13%
+2022-03-28 00:31:51,988 - INFO: iter 0 , finish 42.39%
+2022-03-28 00:33:13,631 - INFO: iter 0 , finish 45.66%
+2022-03-28 00:34:33,480 - INFO: iter 0 , finish 48.92%
+2022-03-28 00:35:48,517 - INFO: iter 0 , finish 52.18%
+2022-03-28 00:37:01,890 - INFO: iter 0 , finish 55.44%
+2022-03-28 00:38:48,313 - INFO: iter 0 , finish 58.70%
+2022-03-28 00:40:12,444 - INFO: iter 0 , finish 61.96%
+2022-03-28 00:41:33,295 - INFO: iter 0 , finish 65.22%
+2022-03-28 00:43:26,148 - INFO: iter 0 , finish 68.48%
+2022-03-28 00:44:59,526 - INFO: iter 0 , finish 71.75%
+2022-03-28 00:46:36,141 - INFO: iter 0 , finish 75.01%
+2022-03-28 00:47:57,740 - INFO: iter 0 , finish 78.27%
+2022-03-28 00:49:41,836 - INFO: iter 0 , finish 81.53%
+2022-03-28 00:51:11,573 - INFO: iter 0 , finish 84.79%
+2022-03-28 00:52:58,367 - INFO: iter 0 , finish 88.05%
+2022-03-28 00:54:13,262 - INFO: iter 0 , finish 91.31%
+2022-03-28 00:56:01,188 - INFO: iter 0 , finish 94.57%
+2022-03-28 00:57:43,541 - INFO: iter 0 , finish 97.83%
+2022-03-28 00:58:44,313 - INFO: segment with model-0 finish
+2022-03-28 00:58:44,313 - INFO: iteration 0 finish
+2022-03-28 01:00:02,913 - INFO: iter 1 , finish 3.26%
+2022-03-28 01:01:23,335 - INFO: iter 1 , finish 6.52%
+2022-03-28 01:03:03,814 - INFO: iter 1 , finish 9.78%
+2022-03-28 01:04:47,617 - INFO: iter 1 , finish 13.04%
+2022-03-28 01:06:17,017 - INFO: iter 1 , finish 16.31%
+2022-03-28 01:07:37,121 - INFO: iter 1 , finish 19.57%
+2022-03-28 01:08:57,902 - INFO: iter 1 , finish 22.83%
+2022-03-28 01:10:26,457 - INFO: iter 1 , finish 26.09%
+2022-03-28 01:11:55,528 - INFO: iter 1 , finish 29.35%
+2022-03-28 01:13:12,098 - INFO: iter 1 , finish 32.61%
+2022-03-28 01:14:29,550 - INFO: iter 1 , finish 35.87%
+2022-03-28 01:16:00,232 - INFO: iter 1 , finish 39.13%
+2022-03-28 01:17:35,081 - INFO: iter 1 , finish 42.39%
+2022-03-28 01:18:56,784 - INFO: iter 1 , finish 45.66%
+2022-03-28 01:20:16,599 - INFO: iter 1 , finish 48.92%
+2022-03-28 01:21:31,295 - INFO: iter 1 , finish 52.18%
+2022-03-28 01:22:44,284 - INFO: iter 1 , finish 55.44%
+2022-03-28 01:24:30,508 - INFO: iter 1 , finish 58.70%
+2022-03-28 01:25:54,334 - INFO: iter 1 , finish 61.96%
+2022-03-28 01:27:14,856 - INFO: iter 1 , finish 65.22%
+2022-03-28 01:29:07,555 - INFO: iter 1 , finish 68.48%
+2022-03-28 01:30:40,807 - INFO: iter 1 , finish 71.75%
+2022-03-28 01:32:17,458 - INFO: iter 1 , finish 75.01%
+2022-03-28 01:33:38,928 - INFO: iter 1 , finish 78.27%
+2022-03-28 01:35:23,115 - INFO: iter 1 , finish 81.53%
+2022-03-28 01:36:52,575 - INFO: iter 1 , finish 84.79%
+2022-03-28 01:38:39,493 - INFO: iter 1 , finish 88.05%
+2022-03-28 01:39:54,094 - INFO: iter 1 , finish 91.31%
+2022-03-28 01:41:41,737 - INFO: iter 1 , finish 94.57%
+2022-03-28 01:43:24,802 - INFO: iter 1 , finish 97.83%
+2022-03-28 01:44:25,947 - INFO: segment with model-1 finish
+2022-03-28 01:44:25,947 - INFO: iteration 1 finish
+2022-03-28 01:45:44,299 - INFO: iter 2 , finish 3.26%
+2022-03-28 01:47:04,996 - INFO: iter 2 , finish 6.52%
+2022-03-28 01:48:46,222 - INFO: iter 2 , finish 9.78%
+2022-03-28 01:50:30,393 - INFO: iter 2 , finish 13.04%
+2022-03-28 01:51:59,611 - INFO: iter 2 , finish 16.31%
+2022-03-28 01:53:19,755 - INFO: iter 2 , finish 19.57%
+2022-03-28 01:54:39,806 - INFO: iter 2 , finish 22.83%
+2022-03-28 01:56:09,154 - INFO: iter 2 , finish 26.09%
+2022-03-28 01:57:39,055 - INFO: iter 2 , finish 29.35%
+2022-03-28 01:58:55,952 - INFO: iter 2 , finish 32.61%
+2022-03-28 02:00:13,322 - INFO: iter 2 , finish 35.87%
+2022-03-28 02:01:44,100 - INFO: iter 2 , finish 39.13%
+2022-03-28 02:03:18,659 - INFO: iter 2 , finish 42.39%
+2022-03-28 02:04:40,402 - INFO: iter 2 , finish 45.66%
+2022-03-28 02:06:01,095 - INFO: iter 2 , finish 48.92%
+2022-03-28 02:07:15,563 - INFO: iter 2 , finish 52.18%
+2022-03-28 02:08:28,870 - INFO: iter 2 , finish 55.44%
+2022-03-28 02:10:15,102 - INFO: iter 2 , finish 58.70%
+2022-03-28 02:11:39,509 - INFO: iter 2 , finish 61.96%
+2022-03-28 02:13:00,201 - INFO: iter 2 , finish 65.22%
+2022-03-28 02:14:52,280 - INFO: iter 2 , finish 68.48%
+2022-03-28 02:16:25,185 - INFO: iter 2 , finish 71.75%
+2022-03-28 02:18:02,242 - INFO: iter 2 , finish 75.01%
+2022-03-28 02:19:23,585 - INFO: iter 2 , finish 78.27%
+2022-03-28 02:21:07,908 - INFO: iter 2 , finish 81.53%
+2022-03-28 02:22:37,396 - INFO: iter 2 , finish 84.79%
+2022-03-28 02:24:24,691 - INFO: iter 2 , finish 88.05%
+2022-03-28 02:25:39,552 - INFO: iter 2 , finish 91.31%
+2022-03-28 02:27:27,282 - INFO: iter 2 , finish 94.57%
+2022-03-28 02:29:09,543 - INFO: iter 2 , finish 97.83%
+2022-03-28 02:30:10,779 - INFO: segment with model-2 finish
+2022-03-28 02:30:10,779 - INFO: iteration 2 finish
+2022-03-28 02:30:17,748 - INFO: segment with avg-model finish
+2022-03-28 02:31:41,387 - INFO: segment with avg-model, finish 13.05%
+2022-03-28 02:33:02,642 - INFO: segment with avg-model, finish 26.09%
+2022-03-28 02:34:27,297 - INFO: segment with avg-model, finish 39.14%
+2022-03-28 02:35:44,515 - INFO: segment with avg-model, finish 52.19%
+2022-03-28 02:37:19,689 - INFO: segment with avg-model, finish 65.23%
+2022-03-28 02:38:47,401 - INFO: segment with avg-model, finish 78.28%
+2022-03-28 02:40:23,784 - INFO: segment with avg-model, finish 91.32%
+2022-03-28 02:41:28,943 - INFO: cv-1-eval:
+2022-03-28 02:41:28,943 - INFO: precision: 0.949
+2022-03-28 02:41:28,943 - INFO: recall: 0.950
+2022-03-28 02:41:28,943 - INFO: F1: 0.950
+2022-03-28 02:41:28,943 - INFO: -------------------------------------------------------------
+2022-03-28 02:41:29,629 - INFO: cv-2-eval:
+2022-03-28 02:41:29,629 - INFO: precision: 0.950
+2022-03-28 02:41:29,629 - INFO: recall: 0.949
+2022-03-28 02:41:29,629 - INFO: F1: 0.950
+2022-03-28 02:41:29,629 - INFO: -------------------------------------------------------------
+2022-03-28 02:41:30,332 - INFO: cv-3-eval:
+2022-03-28 02:41:30,332 - INFO: precision: 0.952
+2022-03-28 02:41:30,332 - INFO: recall: 0.951
+2022-03-28 02:41:30,332 - INFO: F1: 0.952
+2022-03-28 02:41:30,332 - INFO: -------------------------------------------------------------
+2022-03-28 02:41:31,023 - INFO: cv-4-eval:
+2022-03-28 02:41:31,023 - INFO: precision: 0.952
+2022-03-28 02:41:31,023 - INFO: recall: 0.949
+2022-03-28 02:41:31,023 - INFO: F1: 0.951
+2022-03-28 02:41:31,023 - INFO: -------------------------------------------------------------
+2022-03-28 02:41:31,710 - INFO: cv-5-eval:
+2022-03-28 02:41:31,710 - INFO: precision: 0.951
+2022-03-28 02:41:31,710 - INFO: recall: 0.949
+2022-03-28 02:41:31,710 - INFO: F1: 0.950
+2022-03-28 02:41:31,710 - INFO: -------------------------------------------------------------
